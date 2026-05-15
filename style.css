@@ -44,3 +44,47 @@ li{
 
     grid-column: 2;
 }
+
+.icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rebeccapurple; 
+}
+
+.large-icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+
+.two-column-row-layout{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.three-column-row-layout{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+/* header */
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header > div{
+    border: 1px green dashed;
+    padding: 15px;
+}
+
+.button-bar.three-column-row-layout{
+    grid-template-columns: 1fr 1fr 1fr;
+}
