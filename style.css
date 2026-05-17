@@ -19,7 +19,7 @@ li{
 .grid-container{
     background-color: lightblue;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 250px repeat(3, 1fr);
     grid-template-rows: auto 2fr 2fr;
 }
 
@@ -90,6 +90,7 @@ li{
     justify-self: end;
 }
 /* main content */
+
 .main-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -140,4 +141,19 @@ li{
 
 .trending .side-panel{
     gap: 0;
+}
+
+/* sidebar */
+
+.sidebar{
+    padding: 15px;
+    display: grid;
+    align-content: start;
+    gap: 50px;
+}
+
+.profile, .setting{
+    margin-left: 10px;
+    display: grid;
+    gap: 20px;
 }
