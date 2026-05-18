@@ -24,7 +24,6 @@ li{
 }
 
 .sidebar{
-    border: 2px red solid;
     grid-column: 1;
     grid-row: 1 / 4;
 }
@@ -43,6 +42,9 @@ li{
     grid-row: 2 / 4;
 }
 
+.filter{
+    filter: invert(1);
+}
 .icon{
     display: inline-block;
     height: 30px;
@@ -146,7 +148,10 @@ li{
 /* sidebar */
 
 .sidebar{
+    background-color: dodgerblue;
+
     padding: 15px;
+
     display: grid;
     align-content: start;
     gap: 50px;
